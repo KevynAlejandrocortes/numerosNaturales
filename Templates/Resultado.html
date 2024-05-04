@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultado</title>
+    <link href="{{ url_for('static', filename='styles.css') }}" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Resultado</h1>
+        <div class="Resultado-container">
+            <ul>
+                {% for num in naturales %}
+                <li>{{ num }}</li>
+                {% endfor %}
+            </ul>
+            <a href="/" class="btn volver-btn">Regresar al menú</a>
+        </div>
+    </div>
+</body>
+</html>

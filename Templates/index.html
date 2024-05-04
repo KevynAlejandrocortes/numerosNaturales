@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Identificador de Números Naturales</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">Identificador de Números Naturales</h1>
+        <hr>
+        <form action="/Resultado" method="post">
+            <label for="numeros" class="label">Ingrese una lista de números separados por comas:</label>   
+            <input type="text" name="numeros" id="numeros" class="form-control" required>
+            <button type="submit" class="btn btn-primary mt-3">Identificar Números Naturales</button>
+        </form>  
+        <hr>
+    </div>
+</body>
+</html>

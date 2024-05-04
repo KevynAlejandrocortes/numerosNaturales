@@ -1,0 +1,132 @@
+/* Estilos para el formulario */
+form {
+    margin-top: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+/* Estilos para la lista de resultados */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+input[type="text"] {
+    width: 200px; 
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+h1{
+    text-align: center;
+}
+
+/*estilos el archivo resultado.html*/
+
+.Resultado-list ul {
+    padding: 0;
+}
+
+.Resultado-list li {
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.Resultado-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.Resultado-container ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.Resultado-container li {
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.Resultado-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra horizontalmente los elementos */
+}
+
+.Resultado-container ul {
+    padding: 0;
+    list-style-type: none;
+    text-align: center; /* Centra horizontalmente el texto */
+    font-size: 35px;
+}
+
+.Resultado-container li {
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+/* Tamaño de label*/
+label{
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+/* Linea gradiente para body*/
+html{
+    height: auto; /* Para que se centre cualquier dato que tengamos */
+    min-height: 100%; /* El minimo de alto sea 100% */
+}
+
+body{
+    background: linear-gradient(#2ECC71, white);
+}
+
+/* Estilo boton volver del menu resultados.HTML */
+.volver-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.volver-btn:hover {
+    background-color: #0056b3;
+}
